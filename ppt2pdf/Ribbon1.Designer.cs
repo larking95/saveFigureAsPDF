@@ -79,6 +79,7 @@
             this.buttonSaveAsPDF.Label = "Save As PDF";
             this.buttonSaveAsPDF.Name = "buttonSaveAsPDF";
             this.buttonSaveAsPDF.ShowImage = true;
+            this.buttonSaveAsPDF.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonSaveAsPDF_Click);
             // 
             // buttonSaveAsEPS
             // 
@@ -87,6 +88,7 @@
             this.buttonSaveAsEPS.Label = "Save As EPS";
             this.buttonSaveAsEPS.Name = "buttonSaveAsEPS";
             this.buttonSaveAsEPS.ShowImage = true;
+            this.buttonSaveAsEPS.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonSaveAsEPS_Click);
             // 
             // buttonShowSettigs
             // 
@@ -94,6 +96,7 @@
             this.buttonShowSettigs.Label = "Settings";
             this.buttonShowSettigs.Name = "buttonShowSettigs";
             this.buttonShowSettigs.ShowImage = true;
+            this.buttonShowSettigs.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.buttonShowSettigs_Click);
             // 
             // Ribbon1
             // 

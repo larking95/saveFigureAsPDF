@@ -12,5 +12,20 @@ namespace ppt2pdf
         {
 
         }
+
+        private void buttonSaveAsPDF_Click(object sender, RibbonControlEventArgs e)
+        {
+            // PDFとして保存する機能を呼び出すボタン
+        }
+
+        private void buttonSaveAsEPS_Click(object sender, RibbonControlEventArgs e)
+        {
+            // EPSとして保存する機能を呼び出すボタン
+        }
+
+        private void buttonShowSettigs_Click(object sender, RibbonControlEventArgs e)
+        {
+            // 設定変更コントロールを呼び出すボタン
+        }
     }
 }

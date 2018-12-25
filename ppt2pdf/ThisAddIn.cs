@@ -14,6 +14,10 @@ namespace ppt2pdf
         {
             SaveFigure saveFigure = new SaveFigure();
             Ribbon1 ribbon1 = new Ribbon1();
+            var userControlSettingExchanger = new UserControlSettingExchanger();
+            UserControlSettingExcahngerWrap userControlSettingExcahngerWrap = new UserControlSettingExcahngerWrap();
+            var customTaskPanes = this.CustomTaskPanes.Add(userControlSettingExcahngerWrap, "設定ペイン");
+            customTaskPanes.Visible = true;
         }
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)

@@ -13,6 +13,7 @@ namespace ppt2pdf
         {
             if (Settings1.isInitialized == false)
             {
+                // 初期化フラグが立っていない時，設定を初期化する
                 Settings1.pathDefaultSave = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
                 Settings1.pathMagick = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles) 
                     + @"\ImageMagick-7.0.8-Q16\magick.exe";
